@@ -2,6 +2,11 @@
 *{
     font-family: 'poppins',sans-serif;
 }
+.ta{
+    max-height: 820px;
+    object-fit: cover;
+    object-position: top;
+}
 .navbar a{
 font-weight: 600;
 font-size: 18px;
@@ -39,28 +44,31 @@ font-size: 18px;
 padding: 88px 0;
 }
 .bg-car1{
-    background-image:linear-gradient(
-        rgba(0,0,0,0,5)
-        rgba(0,0,0,0,5)
-    ) url(../img/maquillaje1.jpeg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), 
+    url(../img/labial.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .bg-car2{
-    background-image:linear-gradient(
-        rgba(0,0,0,0,5)
-        rgba(0,0,0,0,5)
-    ) url(../img/labial.webp);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), 
+    url(../img/sombra9.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .bg-car3{
-    background-image:linear-gradient(
-        rgba(0,0,0,0,5)
-        rgba(0,0,0,0,5)
-    ) url(../img/card.jpg);
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ), 
+    url(../img/corrector6.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,7 +90,7 @@ padding: 88px 0;
 .banner{
     padding: 50px 0;
     margin-bottom: 80px;
-    background-color: rgb(255, 226, 251);
+    background-color: #F7C1C1;
 }
 .banner h2{
     font-size: 40px;
@@ -116,4 +124,14 @@ padding: 88px 0;
     .banner{
         margin-bottom: 30px;
     }
+}
+.ts{
+    color: #fcf9fb;
+    text-shadow: 4px 3px 0px #000000;
+
+}
+.tsp{
+    color: #f7eeee;
+    text-shadow: 1px 1px 0px #0c0c0c;
+    background: #f7c1c1a2;
 }
